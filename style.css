@@ -1,0 +1,91 @@
+html{
+    font-family: cursive ;
+    font-style:initial;
+}
+.menu{
+    background-image: url(https://th.bing.com/th/id/OIP.9KmHyplG4P6C9ZzIhamSvgHaEo?w=250&h=180&c=7&o=5&dpr=1.25&pid=1.7);
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    padding: 15px;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 400;
+    color: #ffffffff;
+}
+body{
+    margin: 10px;
+    background: #f7f2f2;
+}
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.grid img{
+    border: 2px solid #000000;
+    border-radius: 25px;
+}
+.camel{
+    background-image: url("images/camel.png");
+    background-repeat: no-repeat;
+     background-size: 50%;
+    
+    background-color: khaki;
+}
+.chamelion{
+    background-image: url("images/chameleon.png");
+    background-repeat: no-repeat;
+    background-size: 100px;  
+    background: linear-gradient(124deg, #ff2400, #e81d1d, #e8b71d, #e3e81d, #1de840, #1ddde8, #2b1de8, #dd00f3, #dd00f3)
+}
+.piegon{
+    background-image: url("images/pigeon.png");
+    background-repeat: no-repeat;
+    background-size: 50%;  
+    background-color:darkcyan;
+}
+.teddyBear{
+    background-image: url("images/teddy.png");
+    background-repeat: no-repeat;
+    background-size: 50%;  
+    background-color: burlywood;
+}
+.panda{
+    background-image: url("images/panda.png");
+    background-repeat: no-repeat;
+    background-size: 50%;  
+    background-color:gray ;
+}
+.cicada{
+    background-image: url("images/cicada.png");
+    background-repeat: no-repeat;
+    background-size: 50%;  
+    background-color: saddlebrown;
+}
+.origami{
+    
+    padding: 100px;
+    padding-top: 0px;
+    margin: 50px;
+    margin-bottom: 50px;
+    transform: scale(2);
+
+    position: relative;
+    width: 310px;
+    font-family: fantasy;
+    transition: transform 1s linear;
+    
+}
+.origami:hover{
+ transform: scale(2.3);
+}
+footer{
+    bottom:auto;
+}
+a:link{
+    color: white;
+}
+a:visited{
+    color: white;
+}
